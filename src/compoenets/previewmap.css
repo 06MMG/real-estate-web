@@ -1,0 +1,47 @@
+.preview-map {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.map-title {
+  margin-bottom: 20px;
+}
+
+.location-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location-item {
+  width: calc(33.33% - 20px); /* Set initial width for three boxes in a row */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.location-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.location-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .location-item {
+    width: calc(50% - 20px); /* Set width for two boxes in a row on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .location-item {
+    width: calc(100% - 20px); /* Set width for one box per row on even smaller screens */
+  }
+}

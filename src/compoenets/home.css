@@ -1,0 +1,93 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  .bottom-image {
+  width: 100%;
+  height: 66%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  }
+  
+  .search-section {
+    margin-bottom: 40px;
+  }
+  
+  .featured-properties {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    border-radius: 10px;
+  }
+  
+
+
+  .social-media {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content {
+    padding-bottom: 40%; /* Adjust according to footer height */
+  }
+
+  @media screen and (max-width: 600px) {
+    .home-page {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .bottom-image {
+      height: 60%; /* Adjust height for smaller screens */
+    }
+  
+    .search-section {
+      margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .featured-properties {
+      margin-bottom: 5px; /* Adjust margin for smaller screens */
+    }
+  
+    .footer {
+      padding: 10px; 
+      border-radius: 0;
+    }
+  }

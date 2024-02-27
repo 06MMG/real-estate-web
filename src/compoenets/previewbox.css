@@ -1,0 +1,34 @@
+.preview-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .preview-box {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .box-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .box-description {
+    margin-bottom: 15px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box-image {
+    width: calc(33.33% - 5px); /* Adjust width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 5px;
+  }

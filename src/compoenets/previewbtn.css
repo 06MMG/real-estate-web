@@ -1,0 +1,79 @@
+.preview {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.title-secound {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.preview-buttons {
+  margin-bottom: 20px;
+}
+
+.preview-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.preview-button:hover {
+  background-color: #0056b3;
+}
+
+.preview-title {
+  margin-left: 10px;
+}
+
+.preview-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview-box {
+  width: 190px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.preview-box-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.preview-box-text {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 768px) {
+  .preview-box {
+    width: calc(50% - 20px); /* Adjusted width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .preview-box {
+    width: calc(100% - 20px); /* Full width for smallest screens */
+  }
+}
